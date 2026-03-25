@@ -5,6 +5,9 @@ on:
     tags:
       - 'v*'
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -29,4 +32,4 @@ jobs:
             ## 安装方法 / Installation
             1. 下载 `gemini-floating-reply.zip` 并解压 / Download and extract the zip
             2. Chrome → `chrome://extensions/` → 开启开发者模式 / Enable Developer Mode
-            3. 加载已解压的扩展程序 / Load Unpacked → select the extracted folder
+            3. 加载已解压的扩展程序 / Load Unpacked → 选择解压后的文件夹
