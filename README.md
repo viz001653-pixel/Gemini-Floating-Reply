@@ -134,7 +134,7 @@ gemini-floating-reply/
 ### 🛠 Local development
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/gemini-floating-reply.git
+git clone https://github.com/viz001653-pixel/gemini-floating-reply.git
 cd gemini-floating-reply
 # Load the folder in Chrome developer mode; hit "Refresh" after editing files
 ```
