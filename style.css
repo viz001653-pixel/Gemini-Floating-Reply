@@ -1,0 +1,68 @@
+/* ── Gemini Floating Reply Styles ── */
+
+/* 1. 浮动按钮容器 (绝对定位) */
+#gqr-floating-btn-container {
+  position: absolute;
+  z-index: 2147483647; /* 极高的 Z轴，确保在所有 Gemimi 元素之上 */
+  pointer-events: none; /* 让鼠标事件穿过容器，直达按钮 */
+  /* 用于平滑显示的神奇代码 (可选) */
+  animation: gqr-fade-in 0.15s ease-out;
+}
+
+#gqr-floating-btn-container * {
+  pointer-events: auto; /* 允许按钮接收事件 */
+}
+
+/* 2. 按钮样式 */
+.gqr-floating-reply-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background-color: #ffffff; /* 纯白背景 */
+  border: 1px solid #d1d5db; /* 浅灰色边框 */
+  border-radius: 99px; /* 超圆角 */
+  color: #1f2937; /* 深灰文字 */
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  
+  /* 现代风格的阴影 */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: all 0.15s ease-in-out;
+  outline: none;
+}
+
+/* 3. 悬停效果 */
+.gqr-floating-reply-btn:hover {
+  background-color: #f3f4f6;
+  border-color: #9ca3af;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transform: translateY(-1px); /* 悬停时轻微上浮 */
+}
+
+/* 4. 点击效果 */
+.gqr-floating-reply-btn:active {
+  transform: translateY(1px) scale(0.98);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* 5. 图标样式 */
+.gqr-floating-reply-btn svg {
+  width: 15px;
+  height: 15px;
+  color: #1a73e8; /* 使用蓝色的图标，像 Gemini 的风格 */
+}
+
+/* 6. 显示动画 */
+@keyframes gqr-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

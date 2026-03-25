@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>Gemini Floating Reply</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    width: 270px;
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #fff;
+    color: #1f2937;
+  }
+  .header {
+    background: linear-gradient(135deg, #1a73e8, #0d47a1);
+    color: #fff;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .header svg { width: 22px; height: 22px; flex-shrink: 0; }
+  .header h1 { font-size: 14px; font-weight: 600; }
+  .header p  { font-size: 11px; opacity: 0.85; margin-top: 2px; }
+  .body { padding: 14px 16px; }
+  .status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 12px;
+    background: #e8f5e9;
+    border-radius: 8px;
+    border: 1px solid #a5d6a7;
+    margin-bottom: 12px;
+  }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: #34a853; flex-shrink: 0; }
+  .status span { font-size: 12px; color: #1b5e20; }
+  .tips { font-size: 12px; color: #5f6368; line-height: 1.7; padding-left: 16px; }
+  .tips li { margin-bottom: 4px; }
+  .footer {
+    padding: 10px 16px;
+    border-top: 1px solid #f1f3f4;
+    font-size: 11px;
+    color: #9aa0a6;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+<div class="header">
+  <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.75-2-2-2H3c-1.25 0-2 .75-2 2v8c0 1.25.75 2 2 2h3s1 4-2 6zM14 21c3 0 7-1 7-8V5c0-1.25-.75-2-2-2h-5c-1.25 0-2 .75-2 2v8c0 1.25.75 2 2 2h3s1 4-2 6z"/>
+  </svg>
+  <div>
+    <h1>Gemini Floating Reply</h1>
+    <p>划选即引用 · Select to Quote</p>
+  </div>
+</div>
+<div class="body">
+  <div class="status">
+    <div class="dot"></div>
+    <span>插件已激活 · Extension is active</span>
+  </div>
+  <ul class="tips">
+    <li>在 Gemini 回复中<strong>划选任意文字</strong></li>
+    <li>松开鼠标，浮动按钮自动出现</li>
+    <li>点击按钮，引用内容填入输入框</li>
+    <li>继续输入你的追问即可 ✨</li>
+  </ul>
+</div>
+<div class="footer">v1.0.0 · Gemini Floating Reply</div>
+</body>
+</html>
