@@ -35,7 +35,7 @@
 ### 方式二：克隆源码
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/gemini-floating-reply.git
+git clone https://github.com/viz001653-pixel/gemini-floating-reply.git
 ```
 
 之后按方式一第 2 步起操作，选择克隆下来的文件夹。
@@ -61,7 +61,7 @@ gemini-floating-reply/
 ## 🛠 本地开发
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/gemini-floating-reply.git
+git clone https://github.com/viz001653-pixel/gemini-floating-reply.git
 cd gemini-floating-reply
 # 在 Chrome 开发者模式中加载该文件夹
 # 修改 content.js / style.css 后，在扩展管理页点击刷新即可生效
