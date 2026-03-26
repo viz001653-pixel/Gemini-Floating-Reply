@@ -78,7 +78,6 @@ cd gemini-floating-reply
 
 ### 📋 TODO
 
-- [ ] 支持键盘快捷键触发引用
 - [ ] 支持 Firefox（WebExtension）
 - [ ] 发布至 Chrome Web Store
 
@@ -145,7 +144,6 @@ cd gemini-floating-reply
 
 ### 📋 TODO
 
-- [ ] Keyboard shortcut to trigger quote
 - [ ] Firefox support (WebExtension)
 - [ ] Publish to Chrome Web Store
 
