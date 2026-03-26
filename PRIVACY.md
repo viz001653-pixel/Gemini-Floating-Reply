@@ -24,7 +24,7 @@ The Extension requests host permission for `https://gemini.google.com/*`. This p
 The Extension does not use any third-party analytics, tracking scripts, or external APIs.
 
 ### 4. Contact Us
-If you have any questions about this Privacy Policy, please open an issue on our [GitHub Repository](https://github.com/YOUR_USERNAME/gemini-floating-reply/issues).
+If you have any questions about this Privacy Policy, please open an issue on our [GitHub Repository](https://github.com/viz001653-pixel/gemini-floating-reply/issues).
 
 ---
 
